@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow"/>
+   
+    <link rel="stylesheet" href="./stylesCV.css">
+
+    <title>Juan Gaitan</title>
+</head>
+<body>
+    <header>
+        <h1>Juan Gaitan</h1>
+    </header>
+      
+    <h2 id="Desarrollador-web">Desarrollador Web</h2>
+
+    <p id="barra-colores-1"></p>
+ 
+    <div class="Datos">
+
+        <img src="./imagenes cv/profile.jpg"
+             
+             
+
+    <h2><i class="fa-solid fa-circle-user"></i> Datos Personales</h2>
+    <ul>
+        <li>Fecha de Nacimiento: 05-10-1991</li>
+        <li>Nacionalidad: Argentina</li>
+        <li>Residencia: Tucuman, Argentina</li>
+    </ul>
+    <h2><i class="fa-solid fa-laptop-code"></i> Hard Skills</h2>
+    
+    <div class="Hard-Skills">
+
+        <div class="circular-progress-1">
+            <div class="outer-1">
+                <div class="inner-1">
+                    <div id="number-1"><h3 id="idioma1">Inglés</h3>90%</div>
+                </div>
+            </div>
+            <svg width="160px" height="160px">
+                <defs>
+                    <lineargradient id="GradientColor-1">
+                        <stop offset="0%" stop-color="#F6F72D"/>
+                        <stop offset="100%" stop-color="#F72D6A"/>
+                    </lineargradient>
+                </defs>
+                <circle id="circle-1" cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+        </div>
+
+        <div class="circular-progress-2">
+            <div class="outer-2">
+                <div class="inner-2">
+                    <div id="number-2"><h3 id="idioma1">Francés</h3>77%</div>
+                </div>
+            </div>
+            <svg width="160px" height="160px">
+                <defs>
+                    <lineargradient id="GradientColor-2">
+                        <stop offset="0%" stop-color="#F72D6A"/>
+                        <stop offset="100%" stop-color="#BC2DF7"/>
+                    </lineargradient>
+                </defs>
+                <circle id="circle-2" cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+        </div>
+
+        <div class="circular-progress-3">
+            <div class="outer-3">
+                <div class="inner-3">
+                    <div id="number-3"><h3 id="idioma1">Alemán</h3>66%</div>
+                </div>
+            </div>
+            <svg width="160px" height="160px">
+                <defs>
+                    <lineargradient id="GradientColor-3">
+                        <stop offset="0%" stop-color="#3C2DF7"/>
+                        <stop offset="100%" stop-color="#2DD3F7"/>
+                    </lineargradient>
+                </defs>
+                <circle id="circle-3" cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+        </div>
+    
+        </div>
+        
+    <h2><i class="fa-solid fa-palette"></i> Soft Skills</h2>
+    <ul>
+        <li>Respeto</li>
+        <li>Pensamiento lógico</li>
+        <li>Puntualidad</li>
+        <li>Amabilidad</li>
+        <li>Trabajo en Equipo</li>
+        <li>Creatividad</li>
+        <li>Honestidad</li>
+        <li>Correcta Escritura</li>
+    </ul>
+
+    
+    <h2><i class="fa-solid fa-graduation-cap"></i> Educación</h2> 
+    <ul>
+        <li>CoderHouse. Desarrollo Full Stack. 2020</li>
+        <li>Ticmas. Introduccion Desarrollo Front End. 2023</li>
+        <li>Escuela Tecnica Nro 5. - Tecnico en Informatica Profesional y Personal. 2016</li>
+    </ul>
+    
+    <p id="barra-colores-3"></p>
+
+    <h2><i class="fa-solid fa-briefcase"></i> Experiencia</h2>
+    <ol>
+        <li>
+            <h3>Desarrollador web Junior</h3>
+            <h4>San Miguel de Tucuman. 2020</h4>
+            <ul>
+                <li>Desarrollo de landing pages comerciales</li>
+                <li>Seguimiento de errores</li>
+                <li>Maquetación</li>
+                <li>Reporte de fallas</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Asistente area comercial y Marketing</h3>
+            <h4>Zurich. 2019 - 2021</h4>
+            <ul>
+                <li>Asesoramiento Comercial</li>
+                <li>Manejo de CRM, RRSS y Tienda Nube</li>
+                <li>Ampliado de base de datos</li>
+                <li>Fidelización de clientes</li>
+                <li>Propuestas comerciales</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Marketing digital</h3>
+            <h4>Centro Pet Argentina SRL. 2010 - 2017</h4>
+            <ul>
+                <li>Sesiones fotográficas</li>
+                <li>Proyeccion de objetivos comerciales</li>
+                <li>Manejo de Google Analytics</li>
+    </ol>
+
+</div>
+
+</body>
+<footer>
+    <p id="barra-colores-2"></p>
+  
+    <button id="Contactar" onclick="MostrarTelefono()">Contactar</button>
+    <p id="telefono"></p>
+
+    <script>
+         function MostrarTelefono(){
+            document.getElementById("telefono").innerHTML = "0381-4385400 // fer.romano098@gmail.com";
+         }
+    </script>
+
+</footer>
+
+</html>
